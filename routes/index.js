@@ -17,4 +17,7 @@ router.get('/project', (req, res) => {
 router.get('/contact', (req, res) => {
   res.render('contact');
 });
+router.get('/supportme', (req, res) => {
+  res.render('supportme');
+});
 module.exports = router;

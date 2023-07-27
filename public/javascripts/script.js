@@ -1,4 +1,4 @@
-/* Code from - Mr. WebDesigner : https://www.youtube.com/watch?v=QDbjsABOnAU&t=148s */
+
 
 $(document).ready(function(){
 
@@ -38,3 +38,5 @@ $(document).ready(function(){
     });
   
   });
+
+  
