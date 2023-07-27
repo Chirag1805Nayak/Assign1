@@ -20,4 +20,10 @@ router.get('/contact', (req, res) => {
 router.get('/supportme', (req, res) => {
   res.render('supportme');
 });
+router.get('/cancel', (req, res) => {
+  res.render('cancel');
+});
+router.get('/success', (req, res) => {
+  res.render('success');
+});
 module.exports = router;
