@@ -46,8 +46,8 @@ app.post("/create-checkout-session", async (req, res) => {
       },
     ],
     mode: "subscription",
-    success_url: "http://localhost:3000/success",
-    cancel_url: "http://localhost:3000/cancel",
+    success_url: "https://nayakchirag.onrender.com/success",
+    cancel_url: "https://nayakchirag.onrender.com/cancel",
   });
 
   res.redirect(303, session.url);
